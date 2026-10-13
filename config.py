@@ -1,0 +1,11 @@
+EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+LLM_MODEL = "Qwen/Qwen2.5-1.5B-Instruct"
+DATA_DIR = "data"
+INDEX_FILE = "index.faiss"
+CHUNKS_FILE = "chunks.json"
+CHUNK_WORDS = 180
+CHUNK_OVERLAP = 40
+TOP_K = 3
+MIN_SCORE = 0.30
+MAX_NEW_TOKENS = 250
+DISCLAIMER = "This is general information from public health documents, not medical advice. Please consult a doctor."
